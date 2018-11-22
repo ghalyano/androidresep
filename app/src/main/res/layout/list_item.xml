@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivMakanan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="54dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvJudulResep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivMakanan"
+        android:layout_centerHorizontal="true"
+        android:text="tvJudulResep"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvKomen"
+        android:layout_alignEnd="@+id/tvJudulResep"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+        android:text="Like"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/tvKomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvJudulResep"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="116dp"
+        android:text="Komen"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/tvTukangUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-105dp"
+        android:layout_marginTop="143dp"
+        android:layout_toEndOf="@+id/tvJudulResep"
+        android:text="Tukang Upload"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="181dp" />
+</RelativeLayout>
